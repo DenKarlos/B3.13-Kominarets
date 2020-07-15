@@ -87,6 +87,7 @@ class HTML(TopLevelTag):
 
 # I've changed a way of setting of params in Classes by comparison with example-code
 # that code create html-text
+# If you execute that code you can get file - "B3-13.html" that is attached to repository
 if __name__ == "__main__":
     with HTML("B3-13.html") as doc:
         with TopLevelTag("head") as head:
